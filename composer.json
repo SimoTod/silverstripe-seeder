@@ -1,5 +1,5 @@
 {
-  "name": "littlegiant/silverstripe-seeder",
+  "name": "simotod/silverstripe-seeder",
   "description": "Seed data objects for dev",
   "type": "silverstripe-vendormodule",
   "homepage": "http://github.com/SimoTod/silverstripe-seeder",
