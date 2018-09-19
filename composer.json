@@ -1,18 +1,20 @@
 {
   "name": "littlegiant/silverstripe-seeder",
   "description": "Seed data objects for dev",
-  "type": "silverstripe-module",
-  "homepage": "http://github.com/Little-Giant/silverstripe-seeder",
+  "type": "silverstripe-vendormodule",
+  "homepage": "http://github.com/SimoTod/silverstripe-seeder",
   "keywords": ["silverstripe", "developer tool", "seed"],
   "license": "MIT",
   "authors": [
-    {"name": "Chris Barrett","email": "chris.barrett@littlegiant.co.nz"}
+    {"name": "Chris Barrett","email": "chris.barrett@littlegiant.co.nz"},
+    {"name": "Simone Todaro","email": "simo.todaro@gmail.com"}
   ],
   "support": {
-    "issues": "http://github.com/Little-Giant/silverstripe-seeder/issues"
+    "issues": "http://github.com/SimoTod/silverstripe-seeder/issues"
   },
   "require": {
-    "silverstripe/cms": "~3.1",
+    "silverstripe/cms": "^4",
+    "silverstripe/framework": "^4",
     "fzaninotto/faker": "^1.5",
     "symfony/console": "^2.7",
     "littlegiant/silverstripe-batchwrite": "~0.3.0"
