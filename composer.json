@@ -14,12 +14,13 @@
   },
   "require": {
     "silverstripe/cms": "^4",
-    "silverstripe/framework": "^4",
-    "fzaninotto/faker": "^1.5",
-    "symfony/console": "^2.7",
-    "littlegiant/silverstripe-batchwrite": "~0.3.0"
+    "symfony/console": "^3.4",
+    "fzaninotto/faker": "^1.8"
   },
   "extra": {
     "installer-name": "silverstripe-seeder"
+  },
+  "suggest": {
+      "littlegiant/silverstripe-batchwrite": "Allows batch writes for better performances"
   }
 }
