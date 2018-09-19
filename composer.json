@@ -13,8 +13,8 @@
     "issues": "http://github.com/SimoTod/silverstripe-seeder/issues"
   },
   "require": {
-    "silverstripe/cms": "^4",
-    "symfony/console": "^3.4",
+    "silverstripe/cms": "^4.2",
+    "symfony/console": "^4.0",
     "fzaninotto/faker": "^1.8"
   },
   "extra": {
